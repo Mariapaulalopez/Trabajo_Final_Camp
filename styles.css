@@ -1,0 +1,118 @@
+
+/* Ajusta la altura del carrusel   */
+ 
+.carousel-inner img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px;   /* Añade espacio arriba */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+ .imgTitulo{
+    height: 5%;
+    width: 30%;
+    justify-self: center;
+ }
+
+
+.recuadro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 15px solid rgb(176, 245, 233);
+    background-color: hsl(44, 76%, 75%);
+} 
+h3 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px;   /* Añade espacio arriba */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Botones{
+
+    text-align: center;
+
+}
+h4 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px;   /* Añade espacio arriba */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.video1{
+    text-align: center;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 30px;
+    border-radius: 16px;
+    /* box-shadow: violet;
+    box-shadow: lightgray; */
+
+}
+
+
+.h5{
+    text-align: center;
+}
+
+
+.div4 {
+   /* background-color: rgb(244, 204, 85); */
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    padding-right: 50px;
+    padding-left: 30px;
+    border-radius: 11px;
+    margin-top: 10%;
+}
+
+.div2{
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 30px;
+    border-radius: 16px;
+    margin-top: 10%;
+    
+}
+
+.div3{
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    padding-right: 50px;
+    padding-left: 30px;
+    border-radius: 11px;
+}
+
+
+
+.div5{
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 30px;
+    border-radius: 16px;
+}
+
